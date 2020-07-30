@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lian. Blog</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css">	
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.css">
+</head>
+
+<body>
+	<header class="page-header">
+		<div class="container grid">
+			<a href="home.html" class="header__logo grid">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<nav class="page-header__nav grid">
+				<ul class="nav__list grid">
+					<li class="nav__item ">
+						<a href="home.html" class="nav__link ">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="about.html" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="portfolio.html" class="nav__link">Portfolio</a>
+					</li>
+					<li class="nav__item">
+						<a href="blog.html" class="nav__link nav__link--current">Blog</a>
+					</li>
+					<li class="nav__item">
+						<a href="contact.html" class="nav__link">Contact</a>
+					</li>
+					<li class="nav__item nav__item--search">
+						<span class="visually-hidden">search at site</span>🔍
+					</li>
+				</ul>	
+			</nav>
+			<a href="#" class="menuBtn grid">
+				<span class="lines"></span>
+			</a>
+			<nav class="mainMenu">
+				<ul>
+					<li>
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="#">Search 🔍</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="blog__main">
+		<h1 class="visually-hidden">News</h1>
+		<section class="blog__promo">
+			<div class="container">
+				<h2 class="blog__promo-title">News about lian</h2>
+				<p class="blog__promo-text">Latest News & Insights</p>
+			</div>		
+		</section>
+
+		<section class="news-single__header">
+			<div class="container">
+				<h2 class="news-single__header-title">I am a Blog Post with an Awesome Image</h2>
+				<div class="news-single__info">
+					<span class="news-single__author">by Jenn Pereira</span>
+					<span class="news-single__date">February 28, 2015</span>
+					<span class="news-single__likes">❤ 324 likes</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="news-single">
+			<div class="container">
+				<img class="news-single__image" src="img/news-main-image.jpg"></img>
+				<p class="news-single__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
+				<p class="news-single__text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+				<p class="news-single__interest-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				<h4 class="news-single__text-title">This is heading</h4>
+				<p class="news-single__text">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+				<p class="news-single__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue.</p>
+			</div>
+		</section>
+
+		<section class="comment">
+			<div class="container">
+				<h3 class="comment__title">Leave a Comment</h3>
+				<form class="comment__form">
+					<input class="comment__name" type="text" name="text" placeholder="Name" required></input>
+					<input class="comment__email" type="text" name="email" placeholder="Email" required></input>
+					<input class="comment__website" type="text" name="website" placeholder="Website" required></input>
+					<textarea class="comment__text" type="text" placeholder="Message" rows="4" required></textarea>
+					<button class="button comment__button" type="submit">Send message</button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="page-footer">
+		<img src="img/logo.png" alt="" class="logo footer__logo">
+		<ul class="footer__socials-list">
+			<h2 class="visually-hidden">We in socials media</h2>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--facebook">
+					<span class="visually-hidden">facebook</span>
+				</a>
+			</li>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--google">
+					<span class="visually-hidden">google</span>
+				</a>
+			</li>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--twitter">
+					<span class="visually-hidden">twitter</span>
+				</a>
+			</li>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--linkedin">
+					<span class="visually-hidden">linkedin</span>
+				</a>
+			</li>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--inthernet">
+					<span class="visually-hidden">inthernet</span>
+				</a>
+			</li>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--pinterest">
+					<span class="visually-hidden">pinterest</span>
+				</a>
+			</li>
+			<li class="footer__socials-item">
+				<a href="#" class="footer__socials-link footer__socials-link--instagram">
+					<span class="visually-hidden">instagram</span>
+				</a>
+			</li>
+		</ul>
+		<div class="footer__copyright">
+			<p class="footer__copyright-text">© 2016 Mulitix Theme by ThemeForces. <span class="footer__copyright-text--rights">All Rights Reserved.</span></p>
+		</div>
+	</footer>
+
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -7,8 +7,8 @@
 * adaptive layout
 * grid layout
 * columns layout
-* Jquery owl carousel plugin
-* Jquery burger-menu 
+* jQuery owl carousel plugin
+* jQuery burger-menu 
 
 ### You can run this project locally just do:
 1. git clone https://github.com/AleksandrZanko/lian

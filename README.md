@@ -13,4 +13,4 @@
 ### You can run this project locally just do:
 1. git clone https://github.com/AleksandrZanko/lian
 2. npm install
-3. gulp default
+3. gulp default 
